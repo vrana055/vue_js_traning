@@ -21,7 +21,6 @@ export default {
         addTodo(e) {
             e.preventDefault();
             const newTodo = {
-                id: Math.floor(Math.random() * 10000),
                 title: this.title,
                 completed: false
             }
